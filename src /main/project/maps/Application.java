@@ -1,4 +1,4 @@
-package src.main.maps ;
+package maps ;
 //Java libraries
 import java.awt.event.*;
 import java.io.*;
@@ -7,6 +7,8 @@ import javax.swing.*;
 //Multimedia libraries
 import app.*;
 import io.*;
+import visual.VisualizationView;
+import visual.dynamic.sampled.Screen;
 
 public class Application extends WonderlandApplication
 {

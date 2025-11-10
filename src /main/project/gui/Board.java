@@ -1,3 +1,5 @@
+package gui;
+
 import javax.swing.JTextArea;
 
 public class Board extends JTextArea implements Observer
