@@ -1,4 +1,5 @@
-package src ;
+package wonderland;
+
 //Java libraries
 import java.awt.event.*;
 import java.io.*;
@@ -8,8 +9,10 @@ import javax.swing.*;
 import app.*;
 import io.*;
 
-public class Datum {
-    public Datum(){
-        
+public class Datum
+{
+    public Datum()
+    {
+
     }
 }

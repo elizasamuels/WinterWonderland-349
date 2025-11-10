@@ -1,3 +1,5 @@
+package maps;
+
 //Java libraries
 import java.awt.event.*;
 import java.io.*;
@@ -6,8 +8,10 @@ import javax.swing.*;
 //Multimedia libraries
 import app.*;
 import io.*;
+import wonderland.Observer;
 
-public abstract class WonderlandApplication extends JApplication implements ActionListener
+public abstract class WonderlandApplication extends JApplication
+    implements ActionListener
 {
   public static final int WIDTH = 600;
   public static final int HEIGHT = 800;

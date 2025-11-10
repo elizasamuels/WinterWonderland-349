@@ -1,0 +1,7 @@
+{
+  "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.formatOnSave": true,
+  "java.format.settings.url": "${workspaceFolder}/.vscode/bernstein-style.xml",
+  "java.format.settings.profile": "BernsteinStyle"
+}

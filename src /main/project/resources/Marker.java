@@ -1,5 +1,6 @@
-package src .main.project.resources;
+package resources;
 
-public class Marker {
-    
+public class Marker
+{
+
 }

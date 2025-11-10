@@ -2,6 +2,8 @@ package gui;
 
 import javax.swing.JTextArea;
 
+import wonderland.*;
+
 public class Board extends JTextArea implements Observer
 {
   public Board()
@@ -12,10 +14,8 @@ public class Board extends JTextArea implements Observer
   /**
    * Handle a new/changed WeatherDatum object (required by WeatherObserver).
    *
-   * @param datum
-   *          The new/changed WeatherDatum object
+   * @param datum The new/changed WeatherDatum object
    */
-  @Override
   public void handleDatum(final Datum datum)
   {
     append(datum.toString(true) + "\n");
